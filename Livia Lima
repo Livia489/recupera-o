@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS</title>
+    <link rel="stylesheet" href="R.css">
+    <link rel="shortcut icon" href="icons8-favicon-50.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+        <p>Guia Brasileiro</p>
+        <p>Ingressos</p> 
+        <p>O Que fazer</p>
+        <p>Onde Ficar</p>
+        <p>Onde Comer</p>
+        <p>Transporte</p> 
+        </nav>
+    </header>
+    <div class="caixas">
+        <div class="imagens">
+           <img src="viagem.jpeg" alt="">
+        </div>
+        <div class="imagens">
+            <img src="arte.jpg" alt="">
+
+        </div>
+        <div class="imagens">
+            <img src="monumentos.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    
+}
+header{
+    background-color: black;
+    color: rgb(40, 84, 139);
+    font-size: 30px;
+}
+
+.colunas{
+    background-color: blue;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    grid-template-columns: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imagens{
+    text-align: center;
+    background-color: blue;
+    box-shadow: 8px 8px rgba(0, 0, 255, 0.345);
+    border-radius: 30px;
+    align-items: center;
+    height: 37px;
+    width: 37px;
+    padding: 10%;
+    margin: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    box-shadow: 8px 8px rgba(0, 0, 255, 0.345);
+    border-radius: 10px;
+    align-items: center;
+    height: 370px;
+    width: 370px;
+    padding: 0%;
+    margin: 100px;
+    justify-content: center;
+    grid-template-columns: 3( 1 );
+    flex-direction: column;
+}
+
